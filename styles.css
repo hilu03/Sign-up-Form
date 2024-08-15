@@ -48,7 +48,7 @@ body {
 }
 
 .photo-credit {
-  font-size: 0.6rem;
+  font-size: 0.7rem;
   position: absolute;
   bottom: 1rem;
   text-align: center;
@@ -62,16 +62,73 @@ body {
 }
 
 .right-section {
-  padding-top: 6rem;
-  padding-left: 2rem;
+  padding-top: 5rem;
+  flex: 1;
   /* padding: 6rem 6rem 6rem 2rem; */
+}
+
+.right-section p,
+.create-button-container,
+.log-in {
+  padding-left: 2rem;
 }
 
 .right-section p {
   font-weight: bold;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+  width: 40vw;
 }
 
-.right-section p:first-child {
-  width: 40vw;
+.input-table {
+  display: flex;
+  gap: 5vw;
+  padding: 30px 0 30px 2rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 5px, 
+              rgba(70, 70, 70, 0.1) 0px -1px;
+  margin-bottom: 2rem;
+}
+
+.left-column div:first-child {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 15vw;
+  margin-top: 20px;
+}
+
+.input-container label {
+  color: darkslategray;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.right-column {
+  align-self: flex-end;
+}
+
+.create-button {
+  background-color: #596D48;
+  color: white;
+  border: none;
+  padding: 1rem 3rem;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.log-in {
+  margin-top: 2rem;
+  font-weight: bold;
+  color: darkslategray;
+  font-size: 1rem;
+}
+
+.log-in a {
+  text-decoration: none;
+  color: #596D48;
 }

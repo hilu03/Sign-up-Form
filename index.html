@@ -30,39 +30,43 @@
     <p>
       You <em>know</em> you want to.
     </p>
-    <p>
-      Let do this!
-    </p>
     <form action="post">
-      <div class="input-container">
-        <label for="first-name">FIRST NAME</label>
-        <input type="text" class="first-name" id="first-name">
+      <div class="input-table">
+        <div class="left-column">
+          <div>Let do this!</div>  
+          <div class="input-container">
+            <label for="first-name">FIRST NAME</label>
+            <input type="text" class="first-name" id="first-name">
+          </div>
+          <div class="input-container">
+            <label for="email">EMAIL</label>
+            <input type="email" class="email" id="email">
+          </div>
+          <div class="input-container">
+            <label for="pw">PASSWORD</label>
+            <input type="password" class="pw" id="pw">
+          </div>  
+        </div>
+        <div class="right-column">
+          <div class="input-container">
+            <label for="last-name">LAST NAME</label>
+            <input type="text" class="last-name" id="last-name">
+          </div>
+          <div class="input-container">
+            <label for="phone">PHONE NUMBER</label>
+            <input type="tel" class="phone" id="phone">
+          </div>
+          <div class="input-container">
+            <label for="confirm-pw">CONFIRM PASSWORD</label>
+            <input type="password" class="confirm-pw" id="confirm-pw">
+          </div>    
+        </div>
       </div>
-      <div class="input-container">
-        <label for="last-name">LAST NAME</label>
-        <input type="text" class="last-name" id="last-name">
-      </div>
-      <div class="input-container">
-        <label for="email">EMAIL</label>
-        <input type="email" class="email" id="email">
-      </div>
-      <div class="input-container">
-        <label for="phone">PHONE NUMBER</label>
-        <input type="tel" class="phone" id="phone">
-      </div>
-      <div class="input-container">
-        <label for="pw">PASSWORD</label>
-        <input type="password" class="pw" id="pw">
-      </div>
-      <div class="input-container">
-        <label for="confirm-pw">CONFIRM PASSWORD</label>
-        <input type="password" class="confirm-pw" id="confirm-pw">
-      </div>
-      <div>
-        <button type="submit" class="create-button">Create Account</button>
+      <div class="create-button-container">
+        <button class="create-button">Create Account</button>
       </div>
     </form>
-    <div>
+    <div class="log-in">
       Already have an account?
       <a href="#">Log in</a>
     </div>
