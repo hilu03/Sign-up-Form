@@ -60,3 +60,18 @@ body {
   text-decoration: none;
   text-decoration: underline;
 }
+
+.right-section {
+  padding-top: 6rem;
+  padding-left: 2rem;
+  /* padding: 6rem 6rem 6rem 2rem; */
+}
+
+.right-section p {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.right-section p:first-child {
+  width: 40vw;
+}
