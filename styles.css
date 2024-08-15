@@ -132,3 +132,20 @@ body {
   text-decoration: none;
   color: #596D48;
 }
+
+.input-container input {
+  height: 1.5rem;
+  font-size: 1rem;
+  border-radius: 3px;
+  border: 2px solid #E5E7EB;
+}
+
+.input-container input[type="password"]:invalid {
+  border-color: red;
+}
+
+.input-container input:focus {
+  border-color: blue;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.15) 3px 3px 3px;
+}
